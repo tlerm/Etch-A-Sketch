@@ -9,12 +9,11 @@
 }
 
 div {
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 
 #rowbox {
-    border: 1px solid orange;
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
