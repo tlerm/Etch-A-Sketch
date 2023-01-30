@@ -1,0 +1,30 @@
+#container {
+    border: 1px solid black; 
+    display: flex; 
+    height: 500px; 
+    width: 500px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: auto;
+}
+
+div {
+    border: 1px solid red;
+}
+
+
+#rowbox {
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    height: 500px;
+}
+
+.colbox {
+    flex: 1 1 0; 
+}
+
+.hovered {
+    background-color: blue;
+}
